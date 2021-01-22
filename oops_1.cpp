@@ -41,10 +41,12 @@ int main()
 
     emp1.name="Avishek";
     emp1.empId=4;
-    // The above 2 line will not give any error as name and empId are public varibale,which can be accessed from outside the class directly.It will set the name of emp1 as Avishek and empId as 4.
+    // The above 2 line will not give any error as name and empId are public varibale,which can be accessed from outside the class 
+    // directly.It will set the name of emp1 as Avishek and empId as 4.
 
     // So what if we want to set salary and bonus?
-    // We need to pass salary and bonus of emp1 to the setDetails() function which is public and this function will set salary and bonus.
+    // We need to pass salary and bonus of emp1 to the setDetails() function which is public and this function will set salary 
+    // and bonus.
     emp1.setDetails(200000,20000);
     // The above line will set salary=200000 and bonus=20000 for emp1.
 
