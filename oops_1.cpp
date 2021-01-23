@@ -21,9 +21,9 @@ class Employee
             // In this function we can see that salary,bonus which is private member can be used directly. See Note:1.
         }
     
-        // salary,bonus,empId,name are member variables
-        // setDetails() and getDetails are member variables.
-        // These are not class variables and class member function.
+        // salary,bonus,empId,name are member variables.
+        // setDetails() and getDetails() are member functions.
+        // These are not class variables and class member functions.
 };
 
 // Defining the function setDetails() which we have only declared inside the class Employee
