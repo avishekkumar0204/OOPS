@@ -10,7 +10,7 @@ class Employee
         //Note:2--> This can be accessed directly inside and outside the class.
         int empId;
         string name;
-        // Defining here but will write the fuction outside the class.
+        // Declaring here but will write the fuction outside the class.
         void setDetails(int sal,int bns);
         void getDetails()
         {
@@ -20,6 +20,10 @@ class Employee
 
             // In this function we can see that salary,bonus which is private member can be used directly. See Note:1.
         }
+    
+        // salary,bonus,empId,name are member variables
+        // setDetails() and getDetails are member variables.
+        // These are not class variables and class member function.
 };
 
 // Defining the function setDetails() which we have only declared inside the class Employee
